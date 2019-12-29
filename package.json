@@ -4,7 +4,8 @@
   "description": "Make sure to follow strict structure as defined",
   "main": "./bin/structurize.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "lint": "eslint ./lib"
   },
   "keywords": [
     "structure",
