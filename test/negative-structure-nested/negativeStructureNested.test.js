@@ -8,5 +8,5 @@ test('c.js & b.js is missing at nested, negative number should be 2, positive sh
   const report = P1.generateReport();
   expect(report.positive.number).toBe(5);
   expect(report.negative.number).toBe(2);
-  expect(report.neutral.number).toBe(1);
+  expect(report.neutral.number).toBe(2);
 });
