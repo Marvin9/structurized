@@ -5,7 +5,8 @@
   "main": "./bin/structurize.js",
   "scripts": {
     "test": "jest",
-    "lint": "eslint ./lib"
+    "lint": "eslint ./lib",
+    "ci": "npm run lint && npm run test --coverage"
   },
   "keywords": [
     "structure",
@@ -15,6 +16,7 @@
   "author": "mayursinh",
   "license": "MIT",
   "devDependencies": {
+    "codecov": "^3.6.1",
     "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-import": "^2.19.1"
@@ -24,5 +26,12 @@
     "eslint-plugin-jest": "^23.1.1",
     "jest": "^24.9.0",
     "micromatch": "^4.0.2"
+  },
+  "jest": {
+    "coverageDirectory": "./coverage/",
+    "collectCoverage": true,
+    "coveragePathIgnorePatterns": [
+      "<rootDir>/node_modules/"
+    ]
   }
 }
