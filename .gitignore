@@ -1,2 +1,7 @@
 node_modules
 package-lock.json
+
+test/negative-regex-structure/structure/A/b-foo
+test/negative-structure-nested/structure/A/C
+test/negative-structure-nested/structure/B
+!.keep

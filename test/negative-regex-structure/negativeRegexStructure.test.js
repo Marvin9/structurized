@@ -8,5 +8,5 @@ test('if at any level regex form structured file/folder is 0, then it should add
   const report = P1.generateReport();
   expect(report.positive.number).toBe(6);
   expect(report.negative.number).toBe(1);
-  expect(report.neutral.number).toBe(0);
+  expect(report.neutral.number).toBe(1); // 1 keep file
 });
