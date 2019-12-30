@@ -1,11 +1,15 @@
 module.exports = {
-  root: ['A', 'B', 'index.js'],
-  childStruct: {
-    A: {
-      root: ['a.js'],
+  root: [
+    {
+      A: [
+        'a.js',
+      ],
     },
-    B: {
-      root: ['b.js'],
+    {
+      B: [
+        'b.js',
+      ],
     },
-  },
+    'index.js',
+  ],
 };
