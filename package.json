@@ -25,6 +25,7 @@
     "chalk": "^3.0.0",
     "eslint-plugin-jest": "^23.1.1",
     "jest": "^24.9.0",
+    "log-symbols": "^3.0.0",
     "micromatch": "^4.0.2",
     "yaml": "^1.7.2"
   },
