@@ -1,0 +1,10 @@
+coverage
+node_modules
+test
+.editorconfig
+.eslintrc.json
+.gitignore
+.hound.yml
+.travis.yml
+package-lock.json
+README.md
