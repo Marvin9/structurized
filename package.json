@@ -10,6 +10,7 @@
     "lint": "eslint ./lib",
     "ci": "npm run lint && npm run test --coverage"
   },
+  "homepage": "https://github.com/Marvin9/structurized",
   "keywords": [
     "structure",
     "folder",
