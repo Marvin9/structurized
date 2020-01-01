@@ -7,4 +7,3 @@ test
 .hound.yml
 .travis.yml
 package-lock.json
-README.md
