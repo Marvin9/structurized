@@ -12,7 +12,11 @@ const yamlFilePath = path.resolve(currPath, 'structure.yml');
 
 // add exist condition
 fs.readFile(yamlFilePath, 'utf8', (err, structure) => {
-  if (err) throw new Error(err);
+  if (err) {
+    console.log(`\nCan't found ${chalk.cyan('structure.yml')} in this directory.`);
+    console.log(`at ${currPath}`);
+    return;
+  }
   const parsedStructure = yaml.parse(structure);
   const P1 = new Process(parsedStructure, currPath);
 
