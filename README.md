@@ -6,11 +6,15 @@
 
 Follow defined structure of project.
 
+```
+npm i structurized --save-dev
+```
+
 ## 1. Define structure at root of project
 
   - create **structure.yml** file at root path of project.
   - write rules of structure in human readable form.
-  
+
 **structure.yml**
 
 ```yaml
