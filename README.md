@@ -7,7 +7,7 @@
 Follow defined structure of project.
 
 ```
-npm i structurized --save-dev
+npm i structurized --save-dev -g
 ```
 
 ## 1. Define structure at root of project
