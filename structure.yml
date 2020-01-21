@@ -1,0 +1,17 @@
+root :
+- bin :
+  - structurize.js
+- lib :
+  - utils :
+    - matcher :
+        match : "*.js"
+  - Process.js
+- test :
+  - matcher :
+      match : "*"
+      root :
+        - structure
+        - structure.js
+        - matcher :
+            match : "*.test.js"
+- README.md
