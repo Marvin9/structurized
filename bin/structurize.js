@@ -16,7 +16,7 @@ fs.readFile(yamlFilePath, 'utf8', (err, structure) => {
   if (err) {
     console.log(`\nCan't found ${chalk.cyan('structure.yml')} in this directory.`);
     console.log(`at ${currPath}`);
-    return;
+    process.exit(1);
   }
   const parsedStructure = yaml.parse(structure);
   const P1 = new Process(parsedStructure, currPath);
