@@ -12,9 +12,9 @@ npm i structurized --save-dev -g
 
 ## Example
 
-![structure](example/structure.png)
+![structure](https://github.com/Marvin9/structurized/blob/master/example/structure.png)
 
-![output](example/output.png)
+![output](https://github.com/Marvin9/structurized/blob/master/example/output.png)
 
 ## 1. Define structure at root of project
 
