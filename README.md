@@ -10,6 +10,12 @@ Follow defined structure of project.
 npm i structurized --save-dev -g
 ```
 
+## Example
+
+![structure](example/structure.png)
+
+![output](example/output.png)
+
 ## 1. Define structure at root of project
 
   - create **structure.yml** file at root path of project.
