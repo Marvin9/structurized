@@ -6,3 +6,5 @@ test
 .hound.yml
 .travis.yml
 package-lock.json
+structure.yml
+example
