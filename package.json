@@ -1,6 +1,6 @@
 {
   "name": "structurized",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Make sure to follow strict structure as defined",
   "main": "./bin/structure.js",
   "bin": {
