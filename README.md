@@ -46,7 +46,7 @@ Use [micromatch's matching features](https://github.com/micromatch/micromatch#ma
 
 ```yaml
 root:
-  - Routes
+  - Routes:
     - matcher:
         match: "*.Routes.js"  #don't include dash here (before match)
   - Modals
@@ -58,8 +58,8 @@ Nest the matcher
 
 ```yaml
 root:
-  - src
-    - Components
+  - src:
+    - Components:
       - matcher:
           match: "projectName-*"
           root:
